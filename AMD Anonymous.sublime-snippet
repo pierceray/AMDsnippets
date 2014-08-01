@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[define( [
+	'${1:dependencies}' // Optional
+], function (
+	${2:DependParam} // Optional
+) {
+	${2:DependParam}.${3:methodToCall}();
+} );
+
+]]></content>
+	<tabTrigger>define</tabTrigger>
+	<scope>source.js,text.plain </scope>
+</snippet>

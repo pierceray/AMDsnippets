@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[define( [
+	'flight/lib/component'
+], function (
+	component
+) {
+	function ${1:functionNameUI}() {
+
+		this.attributes( {
+		} );
+
+		this.after( 'initialize', function () {
+
+		} );
+
+		this.${2:methodName} = function(){
+
+		};
+	}
+
+	return component( ${1:functionNameUI} );
+} );} );
+
+]]></content>
+	<tabTrigger>define</tabTrigger>
+	<scope>source.js,text.plain </scope>
+</snippet>
+
+
+
