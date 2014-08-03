@@ -1,5 +1,5 @@
-# AMDsnippets - Sublime Text AMD Snippets
-
+# AMDsnippets
+Sublime Text AMD Snippets
 
 ## Installation
 

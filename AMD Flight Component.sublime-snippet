@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[define( [
-	'flight/lib/component'
+	'${1:flight/lib/component}'
 ], function (
 	component
 ) {
-	function ${1:functionNameUI}() {
+	function ${2:functionNameUI}() {
 
 		this.attributes( {
 		} );
@@ -13,12 +13,12 @@
 
 		} );
 
-		this.${2:methodName} = function(){
+		this.${3:methodName} = function(){
 
 		};
 	}
 
-	return component( ${1:functionNameUI} );
+	return component( ${2:functionNameUI} );
 } );} );
 
 ]]></content>
