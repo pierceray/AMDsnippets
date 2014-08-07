@@ -4,22 +4,21 @@
 ], function (
 	component
 ) {
+	return component( ${2:functionNameUI} );
+
 	function ${2:functionNameUI}() {
 
 		this.attributes( {
 		} );
 
 		this.after( 'initialize', function () {
-
 		} );
 
 		this.${3:methodName} = function(){
-
 		};
 	}
 
-	return component( ${2:functionNameUI} );
-} );} );
+} );
 
 ]]></content>
 	<tabTrigger>define</tabTrigger>

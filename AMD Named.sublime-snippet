@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[define(
-	'${1:module_id}' , // Optional
+	'${1:module_id}',
 [
-	'${2:dependencies}'  // Optional
+	'${2:dependencies}'
 ], function (
 	${3:DependParam}
 ) {
